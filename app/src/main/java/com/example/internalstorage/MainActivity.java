@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buatFile = (Button) findViewById(R.id.buatfile);
-        ubahFile = (Button) findViewById(R.id.ubahfile);
-        bacaFile = (Button) findViewById(R.id.bacafile);
-        deleteFile = (Button) findViewById(R.id.hapusfile);
-        textBaca = (TextView) findViewById(R.id.textbaca);
+        buatFile = findViewById(R.id.buatfile);
+        ubahFile = findViewById(R.id.ubahfile);
+        bacaFile = findViewById(R.id.bacafile);
+        deleteFile = findViewById(R.id.hapusfile);
+        textBaca = findViewById(R.id.textbaca);
 
         buatFile.setOnClickListener(this);
         ubahFile.setOnClickListener(this);
